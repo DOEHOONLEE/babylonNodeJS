@@ -1,0 +1,29 @@
+{
+  "name": "babylonnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babylonjs/core": "5.22.1",
+    "@babylonjs/loaders": "5.22.1",
+    "babylonjs": "5.22.1",
+    "@types/babylon": "^6.16.6",
+    "axios": "^0.27.2",
+    "browser-env": "^3.3.0",
+    "canvas": "2.9.0",
+    "fake-indexeddb": "^4.0.0",
+    "node-canvas-webgl": "^0.2.7",
+    "xhr2": "^0.2.1"
+  },
+  "type": "module",
+  "overrides": {
+    "canavas": "2.9.0",
+    "gl": "5.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
